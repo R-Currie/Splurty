@@ -12,22 +12,23 @@
   <body>
     <header class="row">
       <div class="col-3">
-        <div class="circle">
-          <br />
-          Almost
-          <br />
-          Inspiring
-          <br />
-          Quotes
-        </div>
-
+        <%= link_to root_path, class: 'logo' do %>
+          <div class="circle">
+            <br />
+            Almost
+            <br />
+            Inspiring
+            <br />
+            Quotes
+          </div>
+        <% end %>
       </div>
       <div class="col-6 slogan">
         Splurting out the worst quotes from the best artists
       </div>
 
       <div class="col-3 links">
-        <%= link_to 'Contribute', '#' %>
+        <%= link_to 'Contribute', new_quote_path %>
         <%= link_to 'About', '#' %>
       </div>
 
@@ -45,7 +46,7 @@
       <div class="container">
         <div class="row">
           <div class="col-3">
-            <%= link_to "I want a new quote", "#", class: 'next-quote' %>
+            <%= link_to "I want a new quote", root_path, class: 'next-quote' %>
           </div>
           <div class="text-muted col-9">Made by Robert Currie</div>
         </div>
