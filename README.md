@@ -1,24 +1,29 @@
-# README
+# Splurty
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### [Link](https://splurty-robert-currie.herokuapp.com/) to live app
 
-Things you may want to cover:
+A simple app that displays random quotes and allows users to add more quotes to the database.
+Also the first full stack app I made with Ruby on Rails.
 
-* Ruby version
+### Getting Started
+* Open the app
+* Contribute new quotes
 
-* System dependencies
+### Technologies
+* Ruby 2.5.3
+* Rails 5.2.3
+* PostgreSQL
+* Bootstrap 4.0.0.alpha6
+* jQuery
+* Simple Form
 
-* Configuration
 
-* Database creation
+### Installing
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+1. Clone the repo
+> git clone https://github.com/R-Currie/Splurty.git
+2. Run bundle install inside project root
+> bundle install
+3. Start server
+> rails server -b 0.0.0.0 -p 3000
+4. Enjoy!
